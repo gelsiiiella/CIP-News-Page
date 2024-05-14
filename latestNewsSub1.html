@@ -12,7 +12,7 @@
     .social-icon-container {
         justify-content: center;
         align-items: center;
-        margin-top: 100px; 
+        margin-top: 100px;
     }
 
     .social-icon {
@@ -47,12 +47,39 @@
     .text{
         text-align: justify;
     }
+    .card {
+        border: none;
+    }
+
+    .card + .card {
+        margin-top: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+
 
 </style>
 <body>
     <div class="container-md">
         <div class="row">
-            <div class="col-12 col-md-1">
+            <div class="col-md-1">
                 <div class="social-icon-container">
                     <p><a href="#"><i class="fab fa-facebook-f social-icon"></i></a></p>
                     <p><a href="#"><i class="fab fa-twitter social-icon"></i></a></p>
@@ -60,9 +87,9 @@
                     <p><a href="#"><i class="fab fa-linkedin-in social-icon"></i></a></p>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-md-10">
                 <div class="news">
-                    <h1>Latest Chika</h1>
+                    <h1>Latest News</h1>
                     <div class="card-body">
                         <img src="assets/john_pic4.jpg" class="img-fluid mb-3" width="100%">
                         <h6 class="card-title">12:51 and i thought my feelings were gone</h6>
@@ -79,31 +106,42 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="container-md">
-        <div class="col">
-            <div class="ads">
-                <ul class="card list-unstyled">
-                    <li class="list-group-item news1"><img src="assets/john_pic4.jpg" class="img-fluid" width="100%">
-                        <a href="#"><h5>Islip islip</h5></a>
-                        <p>sahgdsaghdgasjdgajs</p>
-                    </li>
-                    <li class="list-group-item"><img src="assets/john_pic4.jpg" class="img-fluid" width="100%">
-                        <a href="#"><h5>Hi hi hi</h5></a>
-                        <p>sahgdsaghdgasjdgajs</p>
-                    </li>
-                    <li class="list-group-item"><img src="assets/john_pic4.jpg" class="img-fluid" width="100%">
-                        <a href="#"><h5>Hello hello</h5></a>
-                        <p>sahgdsaghdgasjdgajs</p>
-                    </li>
-                </ul>
+            
             </div>
         </div>
-    </div>
 
+        <div class="container-md">
+            <div class="row">
+                <div class="ads">
+                    <ul class="list-unstyled ">
+                        <li class="card border border-danger">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Islip islip</h5>
+                                </a>
+                                <p class="card-text">sahgdsaghdgasjdgajs</p>
+                            </div>
+                        </li>
+                        <li class="card border border-danger">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Hi hi hi</h5>
+                                </a>
+                                <p class="card-text">sahgdsaghdgasjdgajs</p>
+                            </div>
+                        </li>
+                        <li class="card border border-danger">
+                            <div class="card-body">
+                                <a href="#">
+                                    <h5 class="card-title">Hello hello</h5>
+                                </a>
+                                <p class="card-text">sahgdsaghdgasjdgajs</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
