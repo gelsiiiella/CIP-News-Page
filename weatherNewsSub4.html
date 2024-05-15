@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<style>
+    .social-icon-container {
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .social-icon {
+        color: #000;
+        font-size: 2.5rem;
+        padding: 4px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .social-icon:hover {
+        color: #cc2d2d;
+        border-color: aliceblue;
+        transform: rotateX(7deg);
+    }
+    .news{
+        text-align: center;
+    }
+    .ads{
+        margin-top: 20px;
+        display:flex;
+        justify-content: center; 
+        flex-wrap: wrap;
+        
+    }
+    .list-unstyled{
+        border:none;
+    }
+    .class-body p{
+        text-align: justify;
+        font-size: 15px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .text{
+        text-align: justify;
+    }
+    .card {
+        border: none;
+    }
+
+    .card + .card {
+        margin-top: 20px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    .btn{
+        color:#cc2d2d;
+    }
+    .btn:hover{
+        color:#000;
+    }
+    h1{
+        font-family: 'Swap';
+        font-weight: bold;
+        font-size: 45px;
+    }
+    h3{
+        font-family: 'Swap';
+    }
+    
+    p{
+        font-family: 'Swap';
+        font-size: 20px;
+    }
+    h4 {
+        text-align: left;
+    }
+    .nav-tabs {
+        border-bottom: 2px solid #000; 
+    }
+
+    .nav-tabs .nav-item {
+        margin-bottom: 10px; 
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        border-radius: 20px; 
+        padding: 10px 20px; 
+        color: #000; 
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        background-color: #000; 
+        color: #fff; 
+    }
+
+    .nav-tabs .nav-link:hover {
+        background-color: #f0f0f0;
+        color: #000; 
+    }
+    
+
+</style>
+<body>
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="social-icon-container">
+                    <p><a href="#"><i class="fab fa-facebook-f social-icon"></i></a></p>
+                    <p><a href="#"><i class="fab fa-twitter social-icon"></i></a></p>
+                    <p><a href="#"><i class="fab fa-instagram social-icon"></i></a></p>
+                    <p><a href="#"><i class="fab fa-linkedin-in social-icon"></i></a></p>
+                </div>
+            </div>
+            <div class="col-md-11">
+                <div class="news">
+                    <h4><span class="badge text-bg-danger">CURRENT WEATHER ISSUE</span></h4>
+                    <h1>Sweltering heat across Asia was 45 times more likely because of climate change, study finds</h1>
+                    <p> By: AP, By SIBI ARASU Associated Press | MMay 15, 2024 | 12:51pm </p>
+                    <div class="card-body">
+                        <img src="assets/1715726549248weather-05152024.jpg" class="img-fluid mb-3" width="100%">
+                        <p class="card-text">A vendor prepares his umbrella as hot days continue in Manila, Philippines on April 29, 2024. Sizzling heat across Asia and the Middle East in late April that echoed last year’s destructive swelter was made 45 times more likely in some parts of the continent because of human-caused climate change, a study found. (AP Photo/Aaron Favila, File)</p>
+                        <div class="text">
+                            <p><b>BENGALURU, India (AP)</b> — Sizzling heat across Asia and the Middle East in late April that echoed last year's destructive swelter was made 45 times more likely in some parts of the continent because of human-caused climate change, a study Tuesday found.</p>
+
+                            <p>Scorching temperatures were felt across large swaths of Asia, from Gaza in the west — where over 2 million people face clean water shortages, lack of health care and other essentials amid the Israeli bombardment — to the Philippines in the southeast, with many parts of the continent experiencing temperatures well above 40 degrees Celsius (104 degrees Fahrenheit) several days in a row.</p>
+
+                            <p>The extreme heat baking parts of Asia</p>
+
+                            <p>Climate change worsening heatwaves, air quality: UN</p>
+
+                            <p>The study was released by the World Weather Attribution group of scientists, who use established climate models to quickly determine whether human-caused climate change played a part in extreme weather events around the world.</p>
+
+                            <p>In the Philippines, scientists found the heat was so extreme it would have been impossible without human-caused climate change. In parts of the Middle East, climate change increased the probability of the event by about a factor of five.</p>
+
+                            <p>"People suffered and died when April temperatures soared in Asia," said Friederike Otto, study author and climate scientist at Imperial College in London. "If humans continue to burn fossil fuels, the climate will continue to warm, and vulnerable people will continue to die."</p>
+
+                            <p>At least 28 heat-related deaths were reported in Bangladesh, as well as five in India and three in Gaza in April. Surges in heat deaths have also been reported in Thailand and the Philippines this year according to the study.</p>
+
+                            <p>The heat also had a large impact on agriculture, causing crop damage and reduced yields, as well as on education, with school vacations having to be extended and schools closed in several countries, affecting thousands of students.</p>
+
+                            <p>Myanmar, Laos and Vietnam broke records for their hottest April day, and the Philippines experienced its hottest night ever with a low of 29.8 degrees Celsius (85.6 degrees Fahrenheit). In India, temperatures reached as high as 46 degrees Celsius (115 degrees Fahrenheit). The month was the hottest April on record globally and the eleventh consecutive month in a row that broke the hottest month record.</p>
+
+
+        <br><br><br><br><br>
+
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="font-size: 20px;">Weather News Update</a>
+                </li>
+            </ul>
+            <br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="assets/1715726549248weather-05152024.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sweltering heat across Asia was 45 times more likely because of climate change, study finds</h5>
+                            <p class="card-text"><b>BENGALURU, India (AP)</b> — Sizzling heat across Asia and the Middle East in late April that echoed last year's destructive swelter was made 45 times more likely in some parts of the continent because of human-caused climate change, a study Tuesday found.</p>
+                            <br>
+                            <a href="latestNewsSub2.html" class="btn btn-link">Read more</a>
+                            <br><br>
+                            <h6><span class="badge bg-danger">Current Weather Issues</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="assets/images.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Paglabas ng mga gamo-gamo, senyales ng paparating na tag-ulan</h5>
+                            <p class="card-text">Matinding init ang naranasan ngayong Abril dahil sa El Niño. At kahit madalas na ang pag-ulan sa hapon at gabi, sinasabing posibleng maantala ang pagpasok ng tag-ulan sa bansa dahil naman sa pabuong La Niña. Nagpa-Patrol, Ariel Rojas. <b>TV Patrol, Miyerkules, 15 Mayo 2024.</b></p>
+                            <br><br>
+                            <a href="weatherNewsSub1.html" class="btn btn-link">Read more</a>
+                            <br><br><br>
+                            <h6><span class="badge bg-danger">El Nino Effect and Updates</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="assets/171524326899120240422-earth-environment-heat-index-JC-1020.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">El Niño weakens but 47 provinces may still experience drought</h5>
+                            <p class="card-text"><b>MANILA</b> — Hot and dry conditions from the weakening El Niño may still lead to 47 provinces experiencing drought this May, PAGASA said in an advisory.
+
+                                Of these provinces, 23 are in Luzon, 15 in Visayas, and nine in Mindanao. Meanwhile, seven provinces may be under a dry spell and eight may experience dry condition.</p>
+                            <a href="weatherNewsSub2.html" class="btn btn-link">Read more</a>
+                            <br><br>
+                            <h6><span class="badge bg-danger">El Nino Effect and Updates</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav aria-label="breadcrumb" class="text-center">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="weatherNewsSub1.html"></a>Current Weather Issues</li>
+                            <li class="breadcrumb-item"><a href="#"></a>El Nino Effect and Updates</li>
+                            <li class="breadcrumb-item active" aria-current="page">PAGASA Weather Forecast</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        
+          
+          
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
