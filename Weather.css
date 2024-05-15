@@ -1,0 +1,144 @@
+.fl{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.con-mid{
+    text-align: center;
+}
+.con-jus{
+    text-align: justify;
+}
+
+.nav-color .navbar-nav .nav-link,
+.nav-color .navbar-brand,
+.nav-color .navbar-toggler-icon {
+  color: white;
+}
+
+.nav-color .navbar-nav .nav-link:hover,
+.nav-color .navbar-nav .nav-link:focus,
+.nav-color .navbar-brand:hover,
+.nav-color .navbar-brand:focus {
+  color: #f8f9fa; /* Slightly lighter shade of white for hover/focus */
+}
+
+.nav-color .dropdown-menu {
+  background-color: #343a40; /* Dark background for dropdown */
+}
+
+.nav-color .dropdown-item {
+  color: white;
+}
+
+.nav-color .dropdown-item:hover,
+.nav-color .dropdown-item:focus {
+  background-color: #495057; /* Darker shade for hover/focus */
+  color: white;
+}
+
+.navbar-brand{
+    font-family: serif;
+}
+
+
+
+.no-margin{
+    margin:0 !important;
+    padding:0 !important;
+}
+nav{
+    background-color: #930F0F;
+    height:40%;
+    color:white
+}
+.nav-text{
+    color:white;
+}
+nav-content{
+    display: flex;
+    flex-direction: row;
+    color:white;
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .logo-width-md-sm {
+        width: 50%;
+    }
+}
+
+.homeTitle{
+    display: flex;
+    font-size: 3vw;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.carousel-container {
+    max-width: 75%;
+    
+    margin: 0 auto;
+}
+
+.pag-asaTitle{
+    display: flex;
+    font-size: 2vw;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+
+.pag-asa-con-title{
+    font-size: 1.8vw;
+}
+.pag-asa-con-date{
+    font-size: 1vw;
+}
+
+.bot-date-mar{
+    margin-bottom: 2.5vw;
+}
+
+.con-gap-ver{
+    height: 3vw;
+}
+
+
+.left-title{
+    color: #930F0F;
+    font-size: 2.5vw;
+    font-weight: bold;
+
+}
+
+.dis-fl-col{
+    flex-direction: row;
+}
+
+.sticky-section {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Adjust as needed */
+    left: 0; /* Ensures it sticks to the left */
+    z-index: 1000; /* Ensures it stays above other content if necessary */
+  }
+
+
+
+footer{
+    background-color: #930F0F;
+    height:8vw;
+    color:white
+}
+
+
+
+
+
