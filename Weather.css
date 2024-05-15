@@ -21,11 +21,11 @@
 .nav-color .navbar-nav .nav-link:focus,
 .nav-color .navbar-brand:hover,
 .nav-color .navbar-brand:focus {
-  color: #f8f9fa; /* Slightly lighter shade of white for hover/focus */
+  color: #f8f9fa; 
 }
 
 .nav-color .dropdown-menu {
-  background-color: #343a40; /* Dark background for dropdown */
+  background-color: #343a40; 
 }
 
 .nav-color .dropdown-item {
@@ -34,7 +34,7 @@
 
 .nav-color .dropdown-item:hover,
 .nav-color .dropdown-item:focus {
-  background-color: #495057; /* Darker shade for hover/focus */
+  background-color: #495057; 
   color: white;
 }
 
