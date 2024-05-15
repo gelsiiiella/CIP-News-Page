@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local News</title>
+    <title>Weather Forecast</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -77,6 +77,45 @@
         text-decoration: none;
         color: #333;
     }
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+    }
+
+    .badge {
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    .custom-btn {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .custom-btn:hover {
+        background-color: #0056b3;
+    }
+
 
 
 </style>
@@ -114,36 +153,42 @@
             </div>
         </div>
 
-        <div class="container-md">
+        <div class="container">
             <div class="row">
-                <div class="ads">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-4">
+                    <div class="card mb-4">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h6><span class="badge bg-danger">Current Weather Issue</span></h6>
+                            <h5 class="card-title">P7.01 million shabu, P3.1 million kush seized</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="custom-btn">Read more</a>
                         </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="custom-btn">Read more</a>
                         </div>
-                      </div>
-                      <div class="card" style="width: 18rem;">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="custom-btn">Read more</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
