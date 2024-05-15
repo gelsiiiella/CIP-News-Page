@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 .fl{
     display: flex;
     text-align: center;
@@ -138,6 +139,148 @@ footer{
     color:white
 }
 
+.social-icon-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.social-icon {
+    color: #000;
+    font-size: 2.5rem;
+    padding: 4px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.social-icon:hover {
+    color: #cc2d2d;
+    border-color: aliceblue;
+    transform: rotateX(7deg);
+}
+.news{
+    text-align: center;
+}
+.ads{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    
+}
+.list-unstyled{
+    border:none;
+}
+.class-body p{
+    text-align: justify;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    text-align: justify;
+}
+.card {
+    border: none;
+}
+
+.card + .card {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.875rem;
+}
+
+.badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.btn{
+    color:#cc2d2d;
+}
+.btn:hover{
+    color:#000;
+}
+h1{
+    font-family: 'Swap';
+    font-weight: bold;
+    font-size: 45px;
+}
+h3{
+    font-family: 'Swap';
+}
+
+p{
+    font-family: 'Swap';
+    font-size: 20px;
+}
+h4 {
+    text-align: left;
+}
+.nav-tabs {
+    border-bottom: 2px solid #000; 
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: 10px; 
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    color: #000; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #f0f0f0;
+    color: #000; 
+}
 
 
 
