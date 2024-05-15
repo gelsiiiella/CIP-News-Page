@@ -11,7 +11,9 @@
 .con-jus{
     text-align: justify;
 }
-
+.navbar-brand a{
+    font-family: 'Swap';
+}
 .nav-color .navbar-nav .nav-link,
 .nav-color .navbar-brand,
 .nav-color .navbar-toggler-icon {
@@ -217,7 +219,7 @@ a {
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -242,7 +244,7 @@ a {
 h1{
     font-family: 'Swap';
     font-weight: bold;
-    font-size: 45px;
+    font-size: 100px;
 }
 h3{
     font-family: 'Swap';
@@ -281,6 +283,52 @@ h4 {
     background-color: #f0f0f0;
     color: #000; 
 }
+
+
+
+.carousel-container {
+    position: relative;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); 
+    margin-left: 320px;
+}
+
+.homeTitle {
+    font-family: 'Swap';
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 25px; 
+    padding: 12px 24px; 
+    font-size: 1.5rem;
+    text-transform: uppercase; 
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+    color: white;
+}
+
+
+
 
 
 

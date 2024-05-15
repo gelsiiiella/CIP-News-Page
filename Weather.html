@@ -30,11 +30,11 @@
                         Local News
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Local News</a></li>
+                        <li><a class="dropdown-item" href="latestNewsSub1.html">Local News</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">News Local</a></li>
-                        <li><a class="dropdown-item" href="#">Incident and Flash Reports</a></li>
-                        <li><a class="dropdown-item" href="#">Current News</a></li>
+                        <li><a class="dropdown-item" href="latestNewsSub3.html">Flash Report</a></li>
+                        <li><a class="dropdown-item" href="latestNewsSub2.html">Incident</a></li>
+                        <li><a class="dropdown-item" href="latestNewsSub4.html">Current News</a></li>
                     </ul>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,10 +60,10 @@
                         Sports
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Local Sports</a></li>
+                        <li><a class="dropdown-item" href="#">NBA</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Paris Olympics</a></li>
                     </ul>
                 
                     
@@ -74,58 +74,99 @@
         </div>
     </nav>
 
-    <!--title-->
-    <div class="homeTitle">
-        Weather Forecast
-    </div>
-    
-
-
-    <!--Top Carousel-->
-      <!-- home-bg -->
-    <div id="carouselExampleAutoplaying" class="carousel slide carousel-container" data-bs-ride="carousel">
-        <!-- image set -->
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="Images/img.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="Images/img.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="Images/img.jpg" class="d-block w-100" alt="...">
-        </div>
-        </div>
-        <!-- carousel control -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
-    </div>    
-
-    <div class="container">
-    <div class="col-md-12 text-center">
-        <div class="card mb-12" style="display: inline-block;">
-            <img src="assets/pagasa.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">PAGASA: 40 areas in danger level heat index on May 16</h5>
-                <p class="card-text">Forty areas may experience a heat index at the danger level on Thursday, the state weather bureau PAGASA said. 
-                    These areas, according to PAGASA's heat index forecast issued at 5 p.m. Wednesday, are the following:</p>
-                    <br>
-                <a href="latestNewsSub3.html" class="btn btn-link">Read more</a>
-                <br><br>
-                <h6><span class="badge bg-danger">PAGASA Weather Forecast</span></h6>
+    <div class="container1 container-md">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-container" data-bs-ride="carousel">
+            <!-- image set -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/elnino.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <div class="homeTitle">
+                            Weather Forecast
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#weatherModal">
+                                Check the Weather Today
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/thunder.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <div class="homeTitle">
+                            Weather Forecast
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#weatherModal">
+                                Check the Weather Today
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    
+    
+    
+    
+    <div class="modal fade" id="weatherModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="weatherModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-light">
+                    <h1 class="modal-title fs-5" id="weatherModalLabel">Weather Update - Today</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p><b>Current Temperature:</b> 28°C</p>
+                                <p><b>Weather Condition: </b>Partly Cloudy</p>
+                                <p><b>Wind Speed: </b>10 km/h</p>
+                                <p><b>Humidity:</b> 60%</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3><b>Forecast</b></h3>
+                                <p>Expect partly cloudy skies with occasional showers in the afternoon.</p>
+                                <p><b>Temperature:</b> High of 32°C, Low of 25°C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+      
+      
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-12">
+                    <img src="assets/pagasa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h1 class="card-title">PAGASA: 40 areas in danger level heat index on May 16</h1>
+                        <a href="weatherNewsSub3.html" class="btn btn-link">Read more</a>
+                        <br><br>
+                        <h6><span class="badge bg-dark">PAGASA Weather Forecast</span></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     
         <div class="container">
             <br><br>
@@ -134,9 +175,7 @@
                     <div class="card mb-4">
                         <img src="assets/1715726549248weather-05152024.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Sweltering heat across Asia was 45 times more likely because of climate change, study finds</h5>
-                            <p class="card-text"><b>BENGALURU, India (AP)</b> — Sizzling heat across Asia and the Middle East in late April that echoed last year's destructive swelter was made 45 times more likely in some parts of the continent because of human-caused climate change, a study Tuesday found.</p>
-                            <br>
+                            <h1 class="card-title">Sweltering heat across Asia was 45 times more likely because of climate change, study finds</h1>
                             <a href="weatherNewsSub4.html" class="btn btn-link">Read more</a>
                             <br><br>
                             <h6><span class="badge bg-danger">Current Weather Issues</span></h6>
@@ -147,10 +186,7 @@
                     <div class="card mb-4">
                         <img src="assets/171524326899120240422-earth-environment-heat-index-JC-1020.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">El Niño weakens but 47 provinces may still experience drought</h5>
-                            <p class="card-text"><b>MANILA</b> — Hot and dry conditions from the weakening El Niño may still lead to 47 provinces experiencing drought this May, PAGASA said in an advisory.
-
-                                Of these provinces, 23 are in Luzon, 15 in Visayas, and nine in Mindanao. Meanwhile, seven provinces may be under a dry spell and eight may experience dry condition.</p>
+                            <h1 class="card-title">El Niño weakens but 47 provinces may still experience drought</h1>
                             <a href="weatherNewsSub2.html" class="btn btn-link">Read more</a>
                             <br><br>
                             <h6><span class="badge bg-danger">El Nino Effect and Updates</span></h6>
@@ -161,9 +197,7 @@
                     <div class="card mb-4">
                         <img src="assets/images.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Paglabas ng mga gamo-gamo, senyales ng paparating na tag-ulan</h5>
-                            <p class="card-text">Matinding init ang naranasan ngayong Abril dahil sa El Niño. At kahit madalas na ang pag-ulan sa hapon at gabi, sinasabing posibleng maantala ang pagpasok ng tag-ulan sa bansa dahil naman sa pabuong La Niña. Nagpa-Patrol, Ariel Rojas. <b>TV Patrol, Miyerkules, 15 Mayo 2024.</b></p>
-                            <br><br>
+                            <h1 class="card-title">Paglabas ng mga gamo-gamo, senyales ng paparating na tag-ulan</h1>
                             <a href="weatherNewsSub1.html" class="btn btn-link">Read more</a>
                             <br><br><br>
                             <h6><span class="badge bg-danger">El Nino Effect and Updates</span></h6>
@@ -180,7 +214,7 @@
     <div class="con-gap-ver"></div>
 
     <footer>
-        hatdog
+        
     </footer>
 
 </body>
